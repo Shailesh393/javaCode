@@ -1,15 +1,15 @@
-//Avarage of number
+//Average of number
 import java.util.Scanner;
-class Avarage 
+class Average 
      {
           public static void main(String arg[])
            {
               Scanner s= new Scanner(System.in); 
-            System.out.println("Enter the numbers for Avarage: ");
+            System.out.println("Enter the numbers for Average: ");
             double a=s.nextDouble();
            double b= s.nextDouble();
             double c= s.nextDouble();
-             double Avarage=(a+b+c)/3;
-          System.out.println("Avarage of three numbers: " +Avarage);
+             double Average=(a+b+c)/3;
+          System.out.println("Average of three numbers: " +Average);
            }
      }
