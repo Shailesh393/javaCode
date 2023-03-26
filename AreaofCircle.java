@@ -7,7 +7,7 @@
            Scanner s = new Scanner(System.in);
            System.out.println("Enter the radius of Circle:");
            double r= s.nextDouble();
-         //Operation
+         //Operation logic
           double area= (22*r*r)/7;
           System.out.println("Area of Circle is:  " + area);
           }
